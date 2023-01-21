@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <title>FORM</title>
+    </HEAD>
+    <body>
+        <h1>FORM</h1>
+        <form method="post" action="./LIST.html">
+            <label>FIRST NAME  :  </label>
+            <input type="text" name="FIRST NAME" placeholder="Eg.. Bhatraju" required />
+            <label>LAST NAME   :  </label>
+            <input type="text" name="LAST NAME" placeholder="Eg.. Vedasri" ><br><br>
+            <label>EMAIL :  </label>
+            <input type="email" ><br><br>
+            <label>CONTACT NUMBER :  </label>
+            <input type="numbers" ><br><br>
+            <label>PASSWORD :  </label>         
+            <input type="password" ><br><br>
+            <label>DATE :  </label>
+            <input type="date" ><br><br>
+            <label>TIME :  </label>
+            <input type="time" ><br><br>
+            <label>ADDRESS :  </label>
+            <input type="address" disabled><br><br>
+            <label>GENDER</label>
+            <input type="radio" name="GENDER" value="MALE">
+            <label>MALE</label>
+            <input type="radio" name="GENDER" value="FEMALE">
+            <label>FEMALE</label>
+            <input type="radio" name="GENDER" value="CANNOT MENTION">
+            <label>CANNOT MENTION</label>
+            <br><br>
+            <label>EDICATION QUALIFICATION</label>
+            <input type="checkbox" name="EDICATION QUALIFICATION" value="BE" />
+            <label>BE</label>
+            <input type="checkbox" name="EDICATION QUALIFICATION" value="ME" />
+            <label>ME</label>
+            <input type="checkbox" name="EDICATION QUALIFICATION" value="OTHER" />
+            <label>OTHER</label>
+            <br><br>
+            <label>UPLOADE YOUR RESUME URL :  </label>
+            <input type="url" ><br /><br />
+            <label>UPLOADE YOUR AADHAR CARD</label>
+            <input type="file" />
+            <br /><br />
+            <label>SET RANGE OF YOUR INTREST : </label>
+            <input type="range" />
+            <br /><br />
+            <label>YEAR OF PASSED OUT</label>
+            <select>
+                <option value="" >YEAR OF PASSED OUT</option>
+                <option value="1">2022</option>
+                <option value="2">2021</option>
+                <option value="3">2020</option>
+                <option value="4">OTHER</option>
+            </select>
+            <select>
+                <option value="" disabled>YEAR OF PASSED OUT</option>
+                <option value="1">2022</option>
+                <option value="2">2021</option>
+                <option value="3">2020</option>
+                <option value="4">OTHER</option>
+            </select>
+            <select>
+                <optgroup label="past">
+                <option value="">YEAR OF PASSED OUT</option>
+                <option value="1">2022</option>
+                <option value="2">2021</option>
+                <option value="3">2020</option>
+                <option value="4">OTHER</option>
+                </optgroup>
+                <optgroup label="future">
+                <option value="">YEAR OF PASSED OUT</option>
+                <option value="1">2023</option>
+                <option value="2">2024</option>
+                <option value="3">2025</option>
+                <option value="4">OTHER</option>
+                </optgroup>
+            </select>
+            <br /><br />
+            <label>WRITTEN ABOUT YOURSELF</label>
+            <br /><br />
+            <textarea name="MESSAGE" rows="4" cols="50">
+            </textarea>
+            <br /><br />
+            <br /><br />
+            <input type="button" value="BUTTON" />
+            <br /><br />
+            <input type="submit" />
+            <br /><br />
+            
+        </form>
+    </body>
+</HTML>
